@@ -9,8 +9,7 @@ const Services = () => {
       services: [
         "Alineamiento de Estrategia",
         "Marketing Político",
-        "Asesoramiento de Campañas",
-        "Revisión de Brújula Estratégica"
+        "Asesoramiento de Campañas"
       ]
     },
     {

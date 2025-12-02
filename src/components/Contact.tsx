@@ -35,7 +35,7 @@ const Contact = () => {
 
   const handleWhatsAppClick = () => {
     const message = encodeURIComponent("Hola, me gustaría hablar sobre los servicios de La Real");
-    window.open(`https://wa.me/573001234567?text=${message}`, '_blank');
+    window.open(`https://wa.me/573162732285?text=${message}`, '_blank');
   };
 
   return (

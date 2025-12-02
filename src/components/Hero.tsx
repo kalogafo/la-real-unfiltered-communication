@@ -13,7 +13,7 @@ const Hero = () => {
           <img 
             src={logoLaReal} 
             alt="La Real - Agencia de Comunicación" 
-            className="h-32 md:h-40 lg:h-48 w-auto animate-scale-in"
+            className="h-44 md:h-56 lg:h-64 w-auto animate-scale-in"
           />
         </div>
         
