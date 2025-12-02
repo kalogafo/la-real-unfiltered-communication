@@ -18,7 +18,7 @@ const Hero = () => {
         </div>
         
         <h1 className="text-5xl md:text-6xl lg:text-7xl font-heading font-black mb-6 leading-tight">
-          Comunicación política y creativa{" "}
+          Comunicación creativa,{" "}
           <span className="text-primary">sin filtros.</span>
         </h1>
         
@@ -31,7 +31,7 @@ const Hero = () => {
           onClick={scrollToContact}
           className="bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-lg px-8 py-6 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
         >
-          Hablemos ahora
+          Hagámoslo real
         </Button>
       </div>
     </section>
