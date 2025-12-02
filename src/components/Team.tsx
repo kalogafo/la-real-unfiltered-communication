@@ -1,23 +1,30 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { User } from "lucide-react";
+import andresImg from "@/assets/team/andres.jpg";
+import angieImg from "@/assets/team/angie.jpg";
+import crisImg from "@/assets/team/cris.jpg";
+import karenImg from "@/assets/team/karen.jpg";
 
 const Team = () => {
   const team = [
     {
       name: "Andrés Gómez",
-      role: "Estrategia Política y Relacionamiento"
+      role: "Estrategia Política y Relacionamiento",
+      image: andresImg
     },
     {
       name: "Angie Robles",
-      role: "Comunicación, Actriz y Entrenamiento de Voceros"
+      role: "Comunicación, Actriz y Entrenamiento de Voceros",
+      image: angieImg
     },
     {
       name: "Cristian Quiñones",
-      role: "Producción Audiovisual"
+      role: "Producción Audiovisual",
+      image: crisImg
     },
     {
       name: "Karen García",
-      role: "Directora de Arte e Identidad Visual"
+      role: "Directora de Arte e Identidad Visual",
+      image: karenImg
     }
   ];
 
@@ -39,8 +46,12 @@ const Team = () => {
               className="border-2 border-border hover:border-primary transition-all duration-300 hover:shadow-xl rounded-2xl text-center group"
             >
               <CardContent className="pt-8 pb-6">
-                <div className="mb-6 mx-auto w-32 h-32 rounded-full bg-muted border-4 border-primary flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                  <User className="w-16 h-16 text-primary" />
+                <div className="mb-6 mx-auto w-32 h-32 rounded-full overflow-hidden border-4 border-primary group-hover:scale-110 transition-transform duration-300">
+                  <img 
+                    src={member.image} 
+                    alt={member.name}
+                    className="w-full h-full object-cover"
+                  />
                 </div>
                 <h3 className="text-xl font-heading font-bold mb-2 text-card-foreground">
                   {member.name}
