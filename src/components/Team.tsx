@@ -8,22 +8,22 @@ const Team = () => {
   const team = [
     {
       name: "Andrés Gómez",
-      role: "Estrategia Política y Relacionamiento",
+      role: "Estrategia política y relacionamiento",
       image: andresImg
     },
     {
       name: "Angie Robles",
-      role: "Comunicación, Actriz y Entrenamiento de Voceros",
+      role: "Comunicación y entrenamiento de voceros",
       image: angieImg
     },
     {
       name: "Cristian Quiñones",
-      role: "Producción Audiovisual",
+      role: "Producción audiovisual",
       image: crisImg
     },
     {
       name: "Karen García",
-      role: "Directora de Arte e Identidad Visual",
+      role: "Directora de arte e identidad visual",
       image: karenImg
     }
   ];
